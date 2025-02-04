@@ -1,0 +1,148 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Oi Assistente
+    - Bom dia, Assistente
+    - Boa tarde, Assistente
+    - Boa noite, Assistente
+    - Olá Assistente
+    - Olá assistente
+    - olá
+    - olá assistente
+    - olá assistnete
+    
+- intent: goodbye
+  examples: |
+    - Xau, Assistente
+    - Adeus, Assistente
+    - Até logo, Assistente
+    - Boa noite, Assistente
+    - Até amanhã, Assistente
+
+- intent: affirm
+  examples: |
+    - Sim
+    - Claro
+    - Parece-me bem
+    - Correto
+    - Okay
+    - Ok
+    - sim
+
+- intent: deny
+  examples: |
+    - Não
+    - Nope
+    - Nunca
+    - Acho que não
+    - Não gosto assim
+    - Nem por isso
+  
+
+- intent: ver_emails_recentes
+  examples: |
+    - Ver [ultimos](timespan) emails
+    - Ler [ultimos](timespan) emails
+    - Ver [ultimos](timespan) emails
+    - Ler [ultimos](timespan) emails 
+    - Qual foi o [ultimo](timespan) email que recebi?
+    - Recebi algum email [hoje](timespan)?
+    - Recebi alguma coisa [hoje](timespan)?
+    - Recebi algum email [ontem](timespan)?
+    - Recebi alguma coisa [ontem](timespan)?
+    - Tenho emails desta [semana](timespan) que não li?
+    - Tenho algum email não lido de [antes desta semana](timespan)?
+    - Diz-me se recebi algum email [esta tarde](timespan)
+
+- intent: ver_emails_por_pessoa
+  examples: |
+    - ver emails da [Ágata](person)
+    - ver emails do [Linkedin](person)
+    - ver emails do [Professor teste](person)
+    - ver emails da  [Inês Cruz](person)
+    - recebi alguma coisa da [Ágata](person)
+    - recebi alguma coisa do [Professor teste](person)
+    - recebi alguma coisa do [Linkedin](person)
+    - recebi alguma coisa da  [Inês Cruz](person)
+
+- intent: ver_emails_por_tag
+  examples: |
+    - Ver emails [não lidos](tag)
+    - Ver emails [favoritos](tag)
+    - Mostra-me os meus emails [favoritos](tag)
+    - Mostra-me os meus [favoritos](tag)
+    - Mostra-me os [favoritos](tag)
+    - Ver emails [com estrela](tag)
+    - tenho algum email [não lido](tag)? 
+    - Ver emails [não lidos](tag)
+    - Ver emails [spam](tag)
+    - Ver emails com a tag [família](tag)
+    - Ver emails [enviados](tag)
+    - Ver emails [arquivados](tag)
+    - Ver [arquivados](tag)
+
+- intent: tag_email
+  examples: |
+    - por email nos [favoritos](tag)
+    - por email nos [não lidos](tag)
+    - por email como [spam](tag)
+    - classificar email como [spam](tag)
+    - por [estrela](tag) no email
+    - marcar email como [favorito](tag)
+    - adiciona aos [favoritos](tag)
+    - adiciona á [tag de familia](tag)
+
+- intent: selecionar
+  examples: |
+    - [ver](action) email
+    - [ver](action) 
+    - [ler](action) email
+    - [ler](action) 
+    - [abrir](action) email
+    - [abre](action) esse
+    - [ver](action) o [segundo](numero) email
+    - [ver](action) o [quinto](numero)
+    - [ler](action) o [primeiro](numero) email
+    - [ler](action) o [terço](numero)
+    - [abrir](action) o [segundo](numero) email
+    - [abrir](action) o [quarto](numero) email
+
+- intent: help 
+  examples: |
+    - ajuda
+    - ajuda por favor
+    - ajuda [completa](importance)
+    - ajuda [completa](importance) por favor
+    - o que eu posso fazer
+    - como posso falar contigo
+    - como posso ver os meus emails 
+
+- intent: Archive
+  examples: |
+    - Arquivar
+    - Arqivar email 
+    - Arquivar por favor
+    - Podes arquivar
+    - Podes arquivar por favor
+    - Podes Arquivar este email 
+
+- intent: Delete
+  examples: |
+    - Apagar
+    - Podes apagar por favor
+    - Apagar email 
+    - Apagar email por favor 
+
+- intent: move_up 
+  examples: |
+    - para cima 
+    - sobe
+    - move para cima
+
+- intent: move_down
+  examples: |
+    - para baixo
+    - desce
+    - move para baixo
+ 

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GestureBuilderFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SolutionFile>
+		<Header>
+			<Date>2025-01-31</Date>
+			<Time>16:16:02.3191293+00:00</Time>
+			<Version>1</Version>
+			<Type>Solution</Type>
+			<ID>c576724e-56c7-47e0-8d02-f5a5eaeaf7d0</ID>
+		</Header>
+		<Solution_Data>
+			<Files>
+				<Name />
+				<Content>
+					<Items>
+						<File>Final/gestures/Archive.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Archive.a.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Delete.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Delete.a.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Down.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Down.a.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Help.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Help.a.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Read.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Read.a.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Select.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Select.a.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Up.vgbproj</File>
+					</Items>
+					<Items>
+						<File>Final/gestures/Up.a.vgbproj</File>
+					</Items>
+				</Content>
+			</Files>
+		</Solution_Data>
+		<UI_State />
+		<Attributes />
+	</SolutionFile>
+</GestureBuilderFile>
